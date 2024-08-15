@@ -1,7 +1,6 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
 public class Main {
     public static void main(String[] args) {
         try {
@@ -10,8 +9,8 @@ public class Main {
 
             // Exemplo: Inserir um autor
             Autor autor = new Autor();
-            autor.setNome("J.K. Rowling");
-            autor.setNacionalidade("Britânica");
+            autor.setNome("George Lucas");
+            autor.setNacionalidade("Estadunidense");
             autorDAO.inserirAutor(autor);
 
             // Exemplo: Listar todos os autores
@@ -22,8 +21,8 @@ public class Main {
 
             // Exemplo: Inserir um livro
             Livro livro = new Livro();
-            livro.setTitulo("Harry Potter e a Pedra Filosofal");
-            livro.setAnoPublicacao(1997);
+            livro.setTitulo("Star Wars - Uma nova esperança");
+            livro.setAnoPublicacao(1996);
             livro.setIdAutor(1); // Certifique-se de que o ID do autor existe
             livroDAO.inserirLivro(livro);
 
