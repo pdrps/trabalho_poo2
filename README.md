@@ -15,3 +15,5 @@ Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.s
 	at Main.main(Main.java:15)
 
  
+![image](https://github.com/user-attachments/assets/084ce298-22e3-4658-b418-0bbf44aea2a3)
+![image](https://github.com/user-attachments/assets/f580f67d-0224-4b6f-a637-25bbb6f7496f)
